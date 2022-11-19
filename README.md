@@ -2,9 +2,9 @@
 
 ## How to run
 
-* node@18
+* node@14
 
 ```
-$ yarn
-$ yarn storybook
+$ npm install
+$ npm run pl:serve
 ```
