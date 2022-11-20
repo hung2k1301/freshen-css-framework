@@ -1,0 +1,43 @@
+.search-bar {
+  max-width: 750px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  display: flex;
+  &__drop-down {
+    padding: 14px 22px;
+    position: relative;
+    font-size: 14px;
+    &::after {
+      content: "";
+      width: 1px;
+      height: 22px;
+      background-color: #ebebeb;
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  &__drop-down-text {
+    font-weight: bold;
+    margin-right: 28px;
+  }
+  &__input {
+    flex-grow: 1;
+    padding: 14px 22px;
+    font-size: 14px;
+    &::placeholder {
+      color: #4f4f4f;
+    }
+  }
+  &__submit {
+    padding: 14px 22px;
+    background-color: #86bc42;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    font-size: 20px;
+    margin: -1px -1px -1px 0;
+  }
+}
