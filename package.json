@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pl:build": "patternlab build --config ./patternlab-config.json",
@@ -10,7 +13,8 @@
     "pl:install": "patternlab install --config ./patternlab-config.json",
     "pl:serve": "patternlab serve --config ./patternlab-config.json",
     "pl:version": "patternlab --version",
-    "start": "npm run pl:serve"
+    "start": "npm run pl:serve",
+    "compile:scss": "parcel watch ./source/scss/style.scss --dist-dir ./public/css"
   },
   "repository": {
     "type": "git",
@@ -28,5 +32,10 @@
     "@pattern-lab/engine-handlebars": "^5.16.4",
     "@pattern-lab/starterkit-handlebars-vanilla": "^1.4.3",
     "@pattern-lab/uikit-workshop": "^5.17.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0",
+    "tailwindcss": "^3.2.4"
   }
 }
