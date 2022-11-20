@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  align-items: center;
+  &__img {
+    margin-right: 15px;
+    width: 50px;
+    height: 60px;
+  }
+  &__heading {
+    font-size: 28px;
+    line-height: 34.5px;
+    font-weight: bolder;
+  }
+  &__subheading {
+    color: #86BC42;
+    font-size: 12px;
+    text-align: end;
+  }
+}
