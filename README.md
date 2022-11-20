@@ -16,3 +16,7 @@ Compile SCSS
 ```
 $ npm run compile:scss
 ```
+
+Preferences
+
+* css folder struture: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
