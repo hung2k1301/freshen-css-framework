@@ -1,0 +1,22 @@
+.categories {
+  border-radius: 4px;
+  background-color: #86bc42;
+  padding: 16px 21px;
+  max-width: 240px;
+  color: #fff;
+
+  display: flex;
+  position: relative;
+  // background-color: aqua;
+  line-height: 25px;
+
+  &__nav-icon {
+    font-size: 25px;
+  }
+  &__text {
+    font-size: 13px;
+    margin-left: 22px;
+    margin-right: 30px;
+  }
+
+}
