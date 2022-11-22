@@ -1,0 +1,17 @@
+.account-info {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  font-size: 20px;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+  }
+  &__cart-total-price {
+    font-size: 13px;
+    font-weight: 700;
+    color: #121212;
+    margin-left: 10px;
+  }
+}
