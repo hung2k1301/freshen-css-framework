@@ -2,7 +2,6 @@
   display: flex;
   column-gap: 20px;
   align-items: flex-end;
-  // margin-top: 200px;
 
   &__menu {
     display: flex;
@@ -11,10 +10,12 @@
     font-weight: 700;
     font-size: 13px;
     color: #121212;
-    padding-top: 50px;
+    padding-top: 25px;
+    border-top: 2px solid transparent;
+    transition: all .25s ease-in;
   }
   &__menu:hover {
-    border-top: 2px solid #86bc42;
+    border-color: #86bc42;
     color: #86bc42;
   }
 
@@ -22,21 +23,8 @@
     font-size: 8px;
   }
 
-  &__Pages-menu {
-    display: flex;
-    align-items: center;
-    column-gap: 10px;
-    padding-top: 50px;
-    border-top: 2px solid #86bc42;
-    font-weight: 700;
-    font-size: 13px;
-    color: #121212;
-  }
-  &__Pages-menu-name {
+  &__menu--active {
     color: #86bc42;
-  }
-  &__Pages-arrow-icon {
-    color: #86bc42;
-    font-size: 8px;
+    border-color: #86bc42;
   }
 }
