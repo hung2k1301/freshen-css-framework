@@ -1,0 +1,50 @@
+.hero {
+  background-image: url(/public/images/background.svg);
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__intro {
+    color: #41544a;
+    width: 50%;
+  }
+
+  &__text-1 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+
+  &__text-2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  &__text-2-separate {
+    color: #86bc42;
+    font-weight: 400;
+  }
+
+  &__text-3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  &__text-3-separate {
+    font-weight: 700;
+  }
+
+  &__btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    padding: 17px 40px;
+    background-color: #41544a;
+    border-radius: 4px;
+  }
+
+  &__farmer {
+    height: 100%;
+  }
+}

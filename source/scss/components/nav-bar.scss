@@ -1,0 +1,30 @@
+.nav-bar {
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-end;
+
+  &__menu {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 13px;
+    color: #121212;
+    padding-top: 25px;
+    border-top: 2px solid transparent;
+    transition: all .25s ease-in;
+  }
+  &__menu:hover {
+    border-color: #86bc42;
+    color: #86bc42;
+  }
+
+  &__arrow-icon {
+    font-size: 8px;
+  }
+
+  &__menu--active {
+    color: #86bc42;
+    border-color: #86bc42;
+  }
+}

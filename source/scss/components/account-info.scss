@@ -1,0 +1,32 @@
+.account-info {
+  display: flex;
+  column-gap: 30px;
+  font-size: 20px;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  &__badge {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #86bc42;
+    color: #fff;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -6px;
+    left: -9px;
+  }
+
+  &__cart-total-price {
+    font-size: 13px;
+    font-weight: 700;
+    color: #121212;
+    margin-left: 10px;
+  }
+}

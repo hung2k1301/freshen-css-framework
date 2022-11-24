@@ -1,0 +1,17 @@
+.heading-section {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  &__badge {
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 30px;
+    background-color: #86bc42;
+    border-radius: 30px;
+  }
+}
