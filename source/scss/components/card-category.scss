@@ -1,0 +1,40 @@
+.card-category {
+  text-transform: uppercase;
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+    &:hover {
+      .card-category__thumbnail {
+        border-color: #86bc42;
+      }
+      .card-category__name {
+        color: #86bc42;
+      }
+    }
+
+  &__thumbnail {
+    transition: all 0.25s ease-in;
+    width: 125px;
+    height: 125px;
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__thumbnail--active {
+    border-color: #86bc42;
+  }
+
+  &__name {
+    transition: all 0.25s ease-in;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__name--active {
+    color: #86bc42;
+  }
+}
