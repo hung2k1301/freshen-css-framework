@@ -23,21 +23,20 @@
   }
 
   &__btn {
+    transition: all 0.25s ease-in;
     position: relative;
     font-size: 14px;
     padding-bottom: 8px;
 
     &:hover {
-      transition: all 0.5s ease-in;
       color: #41544a;
 
       .promotion-big__btn-effect {
-        transition: all 0.5s ease-in;
         background-color: #41544a;
       }
     }
   }
-
+  
   &__btn-effect {
     transition: all 0.25s ease-in;
     width: 50px;
