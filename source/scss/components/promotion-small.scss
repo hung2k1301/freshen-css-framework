@@ -1,0 +1,58 @@
+.promotion-small {
+  background: url(/source/images/small-promotion-background-1.svg) no-repeat;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #121212;
+  width: 300px;
+  height: 300px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding-top: 84px;
+  padding-left: 30px;
+
+  &__text-1 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+
+  &__text-2 {
+    font-size: 29px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 14px;
+  }
+
+  &__text-separate {
+    color: #849d6a;
+  }
+
+  &__btn {
+    transition: all 0.25s ease-in;
+    position: relative;
+    font-size: 14px;
+    color: #41544a;
+    padding-bottom: 8px;
+
+    &:hover {
+      color: #fff;
+
+      .promotion-small__btn-effect {
+        background-color: #fff;
+      }
+    }
+  }
+
+  &__btn-effect {
+    transition: all 0.25s ease-in;
+    width: 50px;
+    height: 2px;
+    background-color: #41544a;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+  }
+
+  &__background-2 {
+    background: url(/source/images/small-promotion-background-2.svg) no-repeat;
+  }
+}
