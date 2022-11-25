@@ -1,0 +1,28 @@
+.ft-product-badge {
+  display: flex;
+  color: #4f4f4f;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  column-gap: 41px;
+
+  &__btn {
+    transition: all 0.25s ease-out;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border-radius: 30px;
+
+    &:hover {
+      color: #fff;
+      background-color: #41544a;
+    }
+  }
+  
+  &__btn--active {
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #41544a;
+  }
+}
