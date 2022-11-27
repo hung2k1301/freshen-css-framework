@@ -14,7 +14,7 @@ $ npm run pl:serve
 Compile SCSS
 
 ```
-$ npm run compile:scss
+$ npm run compile
 ```
 
 Preferences
