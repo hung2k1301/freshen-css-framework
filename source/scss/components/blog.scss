@@ -1,0 +1,65 @@
+.blog {
+  width: 410px;
+  display: inline-flex;
+  flex-direction: column;
+
+  &__image {
+    position: relative;
+  }
+
+  &__date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+    text-transform: uppercase;
+    color: #121212;
+    background-color: #fff;
+    padding: 18px 13px 10px 13px;
+    border-radius: 0 0 4px 4px;
+    position: absolute;
+    top: 0;
+  }
+  &__month {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  &__day {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  &__tag {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #86bc42;
+    border-radius: 60px;
+    padding: 5px 17px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #121212;
+  }
+
+  &__author {
+    display: flex;
+    column-gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4f4f4f;
+    text-transform: capitalize;
+  }
+  &__account {
+    margin-right: 21px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
