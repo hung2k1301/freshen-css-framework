@@ -9,11 +9,14 @@ function compileSASS() {
     .src(`./source/scss/style.scss`)
     .pipe(sourcemaps.init())
     .pipe(autoprefixer())
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass().on("error", sass.logError))
     .pipe(postcss())
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(`./source/css`))
+    .pipe(sourcemaps.write("."))
+    .pipe(gulp.dest(`./public/css`));
 }
 
-exports.compile = gulp.series(compileSASS)
-exports.compileMatch = gulp.watch([`./source/scss/**/*.scss`, `./source/_patterns/**/*.hbs`])
+exports.compile = gulp.series(compileSASS);
+exports.compileMatch = gulp.watch(
+  [`./source/scss/**/*.scss`, `./source/_patterns/**/*.hbs`],
+  gulp.parallel(compileSASS)
+);
