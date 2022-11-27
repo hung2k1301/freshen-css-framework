@@ -1,0 +1,23 @@
+.order-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #41544a;
+  border: 1px dashed #86bc42;
+  background-color: #fafaeb;
+  padding: 41px 0;
+  position: relative;
+
+  &__delivery {
+    position: absolute;
+    left: 13px;
+    top: -29px;
+  }
+
+  &__phone {
+    color: #86bc42;
+  }
+}
