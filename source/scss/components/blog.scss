@@ -20,6 +20,7 @@
     border-radius: 0 0 4px 4px;
     position: absolute;
     top: 0;
+    left: 20px;
   }
   &__month {
     font-size: 12px;
@@ -29,7 +30,7 @@
     font-size: 30px;
     font-weight: 600;
   }
-
+  
   &__tag {
     color: #fff;
     font-size: 12px;
@@ -39,13 +40,17 @@
     border-radius: 60px;
     padding: 5px 17px;
     position: absolute;
-    bottom: 0;
+    left: 20px;
+    bottom: -13px;
   }
 
   &__title {
     font-size: 18px;
     font-weight: 700;
     color: #121212;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 9px;
   }
 
   &__author {
