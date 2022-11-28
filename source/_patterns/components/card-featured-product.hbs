@@ -111,3 +111,41 @@
   </button>
 
 </a>
+
+{{#each card-featured-product}}
+<a class="ft-product-card" href="">
+
+  <span class="ft-product-card__image">
+    <img src="/images/ft-product-card.svg" alt="Featured Product" />
+    <div class="ft-product-card__behaviour">
+      <div class="ft-product-card__save">
+        <img src="/images/green-heart.svg" alt="Save icon" />
+      </div>
+      <img src="/images/black-search.svg" alt="Search" />
+      <img src="/images/compare-icon.svg" alt="Compare" />
+    </div>
+  </span>
+
+  <p class="ft-product-card__title">{{this.title}}</p>
+
+  <span>
+    <i class="fa-solid fa-star ft-product-card__star"></i>
+    <i class="fa-solid fa-star ft-product-card__star"></i>
+    <i class="fa-solid fa-star ft-product-card__star"></i>
+    <i class="fa-solid fa-star ft-product-card__star"></i>
+    <i
+      class="fa-solid fa-star ft-product-card__star ft-product-card__grey-star"
+    ></i>
+  </span>
+
+  <p class="ft-product-card__name">{{this.name}}</p>
+  <p class="ft-product-card__volume">{{this.volume}}</p>
+  <p class="ft-product-card__price">${{this.price}}</p>
+
+  <button class="ft-product-card__btn">
+    <img src="/images/white-cart.svg" alt="cart" />
+    ADD TO CART
+  </button>
+
+</a>
+{{/each}}
