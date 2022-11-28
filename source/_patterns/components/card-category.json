@@ -1,8 +1,8 @@
 {
   "categories": [
     { "thumbnail": "/images/food-grocery.svg", "name": "food & grocery" },
-    { "thumbnail": "/images/vegetables.svg", "name": "vegetables", "isActive": true },
     { "thumbnail": "/images/bread.svg", "name": "bakery" },
+    { "thumbnail": "/images/vegetables.svg", "name": "vegetables", "isActive": true },
     { "thumbnail": "/images/pineapple.svg", "name": "fruits" },
     { "thumbnail": "/images/salmon.svg", "name": "sea food" },
     { "thumbnail": "/images/steak.svg", "name": "fresh meat" },
