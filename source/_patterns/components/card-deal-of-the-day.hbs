@@ -28,10 +28,11 @@
 
 </a>
 
+{{#each card-deal-of-the-day}}
 <a class="card-deal-day" href="">
   <img src="/images/ft-product-card.svg" alt="Featured Product" />
 
-  <p class="card-deal-day__title">fruits</p>
+  <p class="card-deal-day__title">{{this.title}}</p>
 
   <span>
     <i class="fa-solid fa-star card-deal-day__star"></i>
@@ -43,9 +44,9 @@
     ></i>
   </span>
 
-  <p class="card-deal-day__name">pineapple (tropical gold)</p>
-  <p class="card-deal-day__volume">1 lb</p>
-  <p class="card-deal-day__price">$1.80</p>
+  <p class="card-deal-day__name">{{this.name}}</p>
+  <p class="card-deal-day__volume">{{this.volume}}</p>
+  <p class="card-deal-day__price">${{this.price}}</p>
 
   <p class="card-deal-day__state-bar">
     <span class="card-deal-day__green-bar"></span>
@@ -57,3 +58,4 @@
   </p>
 
 </a>
+{{/each}}
