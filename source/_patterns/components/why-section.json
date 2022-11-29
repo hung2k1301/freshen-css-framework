@@ -1,0 +1,22 @@
+{
+  "why-section": [
+    {
+      "image": "/images/scooter.svg",
+      "alt" : "scooter",
+      "text-1": "we drive fast & ship faster",
+      "text-2": "Sed semper convallis ultricies. Aliqua erat vol esent friday ngilla augue."
+    },
+    {
+      "image": "/images/cash.svg",
+      "alt" : "cash",
+      "text-1": "we save your more money",
+      "text-2": "Sed semper convallis ultricies. Aliqua erat vol esent friday ngilla augue."
+    },
+    {
+      "image": "/images/sale-tag-icon.svg",
+      "alt" : "sale-tag-icon",
+      "text-1": "daily discount coupons",
+      "text-2": "Sed semper convallis ultricies. Aliqua erat vol esent friday ngilla augue."
+    }
+  ]
+}
