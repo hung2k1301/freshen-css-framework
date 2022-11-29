@@ -16,7 +16,7 @@ function compileSASS() {
 }
 
 exports.compile = gulp.series(compileSASS);
-exports.compileMatch = gulp.watch(
+exports.compileWatch = gulp.watch(
   [`./source/scss/**/*.scss`, `./source/_patterns/**/*.hbs`],
   gulp.parallel(compileSASS)
 );
