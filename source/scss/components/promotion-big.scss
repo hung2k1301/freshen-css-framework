@@ -1,15 +1,27 @@
 .promotion-big {
-  background-image: url(/images/promotion-background.svg);
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
-  width: 630px;
+  position: relative;
   height: 300px;
+  aspect-ratio: 2.1/1;
   border: 1px solid transparent;
-  border-radius: 4px;
-  padding-top: 84px;
-  padding-left: 40px;
+  
+  &__bg-img {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+  }
 
+  &__content {
+    position: absolute;
+    top: 84px;
+    left: 40px;
+  }
+  
   &__text-1 {
     font-size: 12px;
     letter-spacing: 0.1em;
