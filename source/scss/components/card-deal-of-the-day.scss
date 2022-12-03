@@ -1,5 +1,5 @@
 .card-deal-day {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 10px;
@@ -9,9 +9,23 @@
   padding: 11px 30px 30px 30px;
   transition: border-color 0.25s ease-out;
 
-  &__active {
+  &--active {
     border: 1px solid #ebebeb;
     padding: 11px 30px 30px 30px;
+  }
+
+  &__thumbnail {
+    position: relative;
+    width: calc(100% - 40px);
+    aspect-ratio: 1/1;
+  }
+  
+  &__img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
   }
 
   &:hover {
@@ -49,23 +63,16 @@
   }
 
   &__state-bar {
-    width: 240px;
+    --percent: 50%;
+    width: 100%;
     height: 6px;
-    background-color: #ebebeb;
+    background: linear-gradient(to right, #86bc42 var(--percent), #ebebeb var(--percent));
     border-radius: 30px;
-    position: relative;
-  }
-  &__green-bar {
-    width: 108px;
-    height: 6px;
-    background-color: #86bc42;
-    border-radius: 30px;
-    position: absolute;
     top: 0;
   }
 
   &__state-available {
-    width: 240px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: #4f4f4f;
