@@ -1,19 +1,18 @@
+{{#each promotion-small}}
 <div class="promotion-small">
-  <p class="promotion-small__text-1">seasonal sale</p>
-  <p class="promotion-small__text-2">up to breads<br /><span
-      class="promotion-small__text-separate"
-    > 50% off</span></p>
-  <a href="" class="promotion-small__btn">shop now
-    <span class="promotion-small__btn-effect"></span>
-  </a>
-</div>
+  <img
+    src="{{this.src}}"
+    alt="promotion background"
+    class="promotion-small__bg-img"
+  />
 
-<div class="promotion-small promotion-small__background-2">
-  <p class="promotion-small__text-1">tasty healthy</p>
-  <p class="promotion-small__text-2">fresh<br /><span
-      class="promotion-small__text-separate"
-    >vegetables</span></p>
-  <a href="" class="promotion-small__btn">shop now
-    <span class="promotion-small__btn-effect"></span>
-  </a>
+  <div class="promotion-small__content">
+    <p class="promotion-small__text-1">{{this.text-1}}</p>
+    <p class="promotion-small__text-2">{{this.text-2}}<br />
+      <span class="promotion-small__text-separate">{{this.text-separate}}</span></p>
+    <a href="" class="promotion-small__btn">shop now
+      <span class="promotion-small__btn-effect"></span>
+    </a>
+  </div>
 </div>
+{{/each}}
