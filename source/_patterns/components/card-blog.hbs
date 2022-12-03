@@ -1,0 +1,23 @@
+{{#each card-blog}}
+  <div class="card-blog">
+    <div class="card-blog__thumbnail">
+      <img src="https://picsum.photos/id/10/600/400" alt="Blog Image" class="card-blog__image"/>
+      <time datetime="2022-04-08" class="card-blog__date">
+        <span class="card-blog__month">april</span>
+        <span class="card-blog__day">08</span>
+      </time>
+
+      <div class="card-blog__tag">life style, farm</div>
+    </div>
+
+    <a href="" class="card-blog__title">{{this.card-blog-title}}</a>
+    
+    <div class="card-blog__author">
+      <img src="/images/blog-user-icon.svg" alt="user icon" />
+      <a href="" class="card-blog__account">by admin</a>
+
+      <img src="/images/comment-icon.svg" alt="comment icon" />
+      <a href="" class="card-blog__account">16 comments</a>
+    </div>
+  </div>
+{{/each}}
