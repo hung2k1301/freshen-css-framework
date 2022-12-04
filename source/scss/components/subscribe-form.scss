@@ -1,0 +1,30 @@
+.subs-form {
+  display: flex;
+  align-items: center;
+  width: 630px;
+  height: 60px;
+  position: relative;
+
+  &__input {
+    background-color: #fff;
+    color: #4f4f4f;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 170px;
+  }
+
+  &__btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #86bc42;
+    border-radius: 4px;
+    padding: 18px 42px 16px;
+    position: absolute;
+    right: 5px;
+  }
+}
