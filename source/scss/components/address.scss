@@ -1,0 +1,25 @@
+.address {
+  background-color: #41544a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 5px;
+
+  &__detail {
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  &__btn {
+    padding: 7px 0;
+    position: relative;
+  }
+  &__btn-effect {
+    width: 48px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
