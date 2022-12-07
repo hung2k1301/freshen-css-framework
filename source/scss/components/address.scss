@@ -3,23 +3,30 @@
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  padding-bottom: 5px;
 
   &__detail {
     line-height: 30px;
+    margin-top: 44px;
     margin-bottom: 15px;
   }
 
   &__btn {
-    padding: 7px 0;
-    position: relative;
+    display: block;
+    margin-bottom: 34px;
   }
   &__btn-effect {
+    display: block;
     width: 48px;
     height: 2px;
     background-color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    top: 7px;
+  }
+
+  &__social {
+    background-color: #41544a;
+    display: flex;
+    column-gap: 26px;
+    align-items: center;
   }
 }
