@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="grid grid-cols-12 gap-7">
+    <div class="col-span-6">
+
+      <div class="banner-2">
+        <img
+          src="https://picsum.photos/id/122/800/400"
+          alt="promotion image"
+          class="banner-2__bg-img"
+        />
+
+        <div class="banner-2__content">
+          <p class="banner-2__text-1">fresh fruit</p>
+          <p class="banner-2__text-2">fresh summer with<br />just $200.99</p>
+          <a href="" class="banner-2__btn">shop now
+            <span class="banner-2__btn-effect"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {{#each banner-2}}
+      <div class="col-span-3">
+        <div class="banner-2">
+          <img
+            src="{{this.src}}"
+            alt="promotion background"
+            class="banner-2__bg-img"
+          />
+
+          <div class="banner-2__content">
+            <p class="banner-2__text-1 banner-2__text--black">{{this.text-1}}</p>
+            <p class="banner-2__text-2 banner-2__text--black">{{this.text-2}}<br />
+              <span
+                class="banner-2__text-separate banner-2__text--green"
+              >{{this.text-separate}}</span></p>
+            <a href="" class="banner-2__btn banner-2__btn--dark">shop now
+              <span class="banner-2__btn-effect"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

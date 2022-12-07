@@ -1,6 +1,7 @@
 @tailwind components;
 @import "top-bar";
 @import "logo";
+@import "logo-2";
 @import "search-bar";
 @import "categories-button";
 @import "account-info";
@@ -8,8 +9,7 @@
 @import "hotline.scss";
 @import "card-category";
 @import "hero";
-@import "promotion-big";
-@import "promotion-small";
+@import "banner-2";
 @import "heading-section";
 @import "featured-product-badge";
 @import "card-featured-product";
@@ -25,3 +25,4 @@
 @import "subscribe-form";
 @import "address";
 @import "social";
+@import "contact";

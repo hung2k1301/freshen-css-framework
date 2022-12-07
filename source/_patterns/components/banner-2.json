@@ -1,13 +1,13 @@
 {
-  "promotion-small": [
+  "banner-2": [
     {
-      "src": "https://picsum.photos/id/141/200/300",
+      "src": "https://picsum.photos/id/141/800/400",
       "text-1": "seasonal sale",
       "text-2": "up to breads",
       "text-separate": "50% off"
     },
     {
-      "src": "https://picsum.photos/id/162/200/300",
+      "src": "https://picsum.photos/id/162/800/400",
       "text-1": "tasty healthy",
       "text-2": "fresh",
       "text-separate": "vegetables"
