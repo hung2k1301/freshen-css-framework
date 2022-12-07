@@ -1,18 +1,27 @@
-{{#each card-instagram}}
-  <div class="card-ig">
-    <img
-      src="https://picsum.photos/id/204/200/300"
-      alt="IG image"
-      class="card-ig__img"
-    />
-    {{#if this.isActive}}
-      <a href="" class="card-ig__icon {{this.iconActive}}">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-    {{else}}
-      <a href="" class="card-ig__icon">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-    {{/if}}
+<div class="container">
+  <div class="grid grid-cols-10 gap-2">
+
+    {{#each card-instagram}}
+      <div class="col-span-2">
+
+        <a href="" class="card-ig">
+          <img
+            src="https://picsum.photos/id/204/200/300"
+            alt="IG image"
+            class="card-ig__img"
+          />
+          {{#if this.isActive}}
+            <div class="card-ig__icon {{this.iconActive}}">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          {{else}}
+            <div class="card-ig__icon">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          {{/if}}
+        </a>
+
+      </div>
+    {{/each}}
   </div>
-{{/each}}
+</div>
