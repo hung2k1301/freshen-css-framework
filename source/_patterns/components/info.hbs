@@ -1,0 +1,22 @@
+<div class="flex justify-between bg-dark-green">
+
+  {{#each info}}
+    <div class="info">
+
+      <p class="info__title">{{this.title}}</p>
+
+      <ul class="info__list">
+        <li><a
+            href=""
+            class="info__detail {{this.modifier}}"
+          >{{this.detail-1}}</a></li>
+        <li><a href="" class="info__detail">{{this.detail-2}}</a></li>
+        <li><a href="" class="info__detail">{{this.detail-3}}</a></li>
+        <li><a href="" class="info__detail">{{this.detail-4}}</a></li>
+        <li><a href="" class="info__detail">{{this.detail-5}}</a></li>
+        <li><a href="" class="info__detail">{{this.detail-6}}</a></li>
+      </ul>
+
+    </div>
+  {{/each}}
+</div>
