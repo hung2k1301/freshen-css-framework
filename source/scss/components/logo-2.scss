@@ -1,0 +1,20 @@
+.logo-2 {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  &__img {
+    margin-right: 15px;
+    width: 50px;
+    height: 60px;
+  }
+  &__heading {
+    font-size: 28px;
+    line-height: 34.5px;
+    color: #fff;
+  }
+  &__subheading {
+    color: #86bc42;
+    font-size: 12px;
+    text-align: end;
+  }
+}
