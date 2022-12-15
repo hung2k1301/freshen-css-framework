@@ -1,0 +1,30 @@
+.footer-menu-1 {
+  color: #fff;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+  }
+
+  &__list {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  &__detail {
+    transition: color 0.25s ease-in;
+    &--green {
+      color: #86bc42;
+    }
+
+    &:hover {
+      color: #86bc42;
+    }
+  }
+}
