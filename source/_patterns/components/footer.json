@@ -1,0 +1,36 @@
+{
+  "footer-menu-1": [
+    {
+      "title": "information",
+      "modifier": "info__detail--green",
+      "detail-1": "delivery information",
+      "detail-2": "privacy policy",
+      "detail-3": "terms & conditions",
+      "detail-4": "contact",
+      "detail-5": "returns",
+      "detail-6": "affilate"
+    }
+  ],
+  "footer-menu-2": [
+    {
+      "title": "account",
+      "detail-1": "my account",
+      "detail-2": "order history",
+      "detail-3": "wishlist",
+      "detail-4": "shipping",
+      "detail-5": "privacy policy",
+      "detail-6": "help"
+    }
+  ],
+  "footer-menu-3": [
+    {
+      "title": "our stores",
+      "detail-1": "new york",
+      "detail-2": "london sF",
+      "detail-3": "cockfosters bP",
+      "detail-4": "los angeles",
+      "detail-5": "chicago",
+      "detail-6": "las vegas"
+    }
+  ]
+}
