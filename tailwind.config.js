@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         grey: "#EBEBEB",
         "dark-green": "#41544A",
+        "bottom-bar": "rgba(255,255,255,0.1)",
       },
     },
     container: {
