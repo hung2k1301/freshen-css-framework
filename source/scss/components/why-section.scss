@@ -1,8 +1,7 @@
 .why {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 295px;
 
   &__img-bg {
     position: relative;
