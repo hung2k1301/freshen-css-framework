@@ -1,17 +1,17 @@
-<div>
-  {{#each categories}}
-    <a href="" class="card-category">
-      {{#if this.isActive}}
-        <div class="card-category__thumbnail card-category__thumbnail--active">
-          <img src="{{this.thumbnail}}" alt="{{this.name}}" />
-        </div>
-        <p class="card-category__name card-category__name--active">{{this.name}}</p>
-      {{else}}
-        <div class="card-category__thumbnail">
-          <img src="{{this.thumbnail}}" alt="{{this.name}}" />
-        </div>
-        <p class="card-category__name">{{this.name}}</p>
-      {{/if}}
-    </a>
-  {{/each}}
-</div>
+{{#each categories}}
+  <a href="" class="card-category">
+    {{#if this.isActive}}
+      <div class="card-category__thumbnail card-category__thumbnail--active">
+        <img src="{{this.thumbnail}}" alt="{{this.name}}" />
+      </div>
+      <p
+        class="card-category__name card-category__name--active"
+      >{{this.name}}</p>
+    {{else}}
+      <div class="card-category__thumbnail">
+        <img src="{{this.thumbnail}}" alt="{{this.name}}" />
+      </div>
+      <p class="card-category__name">{{this.name}}</p>
+    {{/if}}
+  </a>
+{{/each}}

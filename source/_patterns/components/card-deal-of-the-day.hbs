@@ -1,36 +1,37 @@
 {{#each card-deal-of-the-day}}
-  <a class="card-deal-day {{this.active}}" href="">
-    <div class="card-deal-day__thumbnail">
-      <img
-        src="https://picsum.photos/id/13/200/300"
-        alt="Featured Product"
-        class="card-deal-day__img"
-      />
-    </div>
+  <div class="col-span-3">
+    <a class="card-deal-day {{this.active}}" href="">
+      <div class="card-deal-day__thumbnail">
+        <img
+          src="https://picsum.photos/id/13/200/300"
+          alt="Featured Product"
+          class="card-deal-day__img"
+        />
+      </div>
 
-    <p class="card-deal-day__title">{{this.title}}</p>
+      <p class="card-deal-day__title">{{this.title}}</p>
 
-    <span>
-      <i class="fa-solid fa-star card-deal-day__star"></i>
-      <i class="fa-solid fa-star card-deal-day__star"></i>
-      <i class="fa-solid fa-star card-deal-day__star"></i>
-      <i class="fa-solid fa-star card-deal-day__star"></i>
-      <i
-        class="fa-solid fa-star card-deal-day__star card-deal-day__star--grey"
-      ></i>
-    </span>
+      <span>
+        <i class="fa-solid fa-star card-deal-day__star"></i>
+        <i class="fa-solid fa-star card-deal-day__star"></i>
+        <i class="fa-solid fa-star card-deal-day__star"></i>
+        <i class="fa-solid fa-star card-deal-day__star"></i>
+        <i
+          class="fa-solid fa-star card-deal-day__star card-deal-day__star--grey"
+        ></i>
+      </span>
 
-    <p class="card-deal-day__name">{{this.name}}</p>
-    <p class="card-deal-day__volume">{{this.volume}}</p>
-    <p class="card-deal-day__price">${{this.price}}</p>
+      <p class="card-deal-day__name">{{this.name}}</p>
+      <p class="card-deal-day__volume">{{this.volume}}</p>
+      <p class="card-deal-day__price">${{this.price}}</p>
 
-    <div class="card-deal-day__state-bar" style="--percent: 70%"></div>
+      <div class="card-deal-day__state-bar" style="--percent: 70%"></div>
 
-    <p class="card-deal-day__state-available">
-      <span>Sold: <span class="card-deal-day__state-number">20</span></span>
-      <span>Available:
-        <span class="card-deal-day__state-number">10</span></span>
-    </p>
-
-  </a>
+      <p class="card-deal-day__state-available">
+        <span>Sold: <span class="card-deal-day__state-number">20</span></span>
+        <span>Available:
+          <span class="card-deal-day__state-number">10</span></span>
+      </p>
+    </a>
+  </div>
 {{/each}}
