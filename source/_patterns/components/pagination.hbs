@@ -1,0 +1,13 @@
+<div class="pagination">
+  <i class="fa-solid fa-angle-left"></i>
+
+  <div class="pagination__page-number">
+    {{#each pagination}}
+      <button class="pagination__number {{this.modifier}}">
+        {{this.number}}
+      </button>
+    {{/each}}
+  </div>
+
+  <i class="fa-solid fa-angle-right"></i>
+</div>
