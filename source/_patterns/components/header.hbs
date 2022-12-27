@@ -1,13 +1,16 @@
-<div class="bg-dark-green">
+<div class="bg-dark-green hidden xl:block">
   <div class="container mx-auto">
     {{> components-top-bar}}
   </div>
 </div>
 
-<div class="container flex items-center py-8">
+<div class="container flex items-center justify-between px-5 py-3 xl:py-8">
+
+  <img src="/images/nav-icon-2.svg" alt="nav-icon" class="xl:hidden">
+
   {{> components-logo}}
 
-  <div class="ml-auto min-w-search-bar">
+  <div class="ml-auto min-w-search-bar hidden xl:block">
     {{> components-search-bar}}
   </div>
 
@@ -16,9 +19,9 @@
   </div>
 </div>
 
-<div class="border-t border-grey border-solid"></div>
+<div class="border-t border-grey border-solid hidden xl:block"></div>
 
-<div class="container flex items-center h-16">
+<div class="container items-center h-16 hidden xl:flex">
   <div class="self-end">
     {{> components-categories-button}}
   </div>

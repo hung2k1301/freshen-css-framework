@@ -1,4 +1,4 @@
-<div class="hero mt-3 mb-24">
+<div class="hero mt-3 mb-24 aspect-[414/792] xl:aspect-[192/60]">
   <div class="container pt-36">
     <div class="hero__intro">
       <p class="hero__text-1">ALL NATURAL PRODUCTS</p>
@@ -13,5 +13,9 @@
     </div>
   </div>
 
-  <img src="/images/farmer.svg" class="hero__farmer" alt="Farmer Image" />
+  <img src="/images/farmer.svg" class="hero__farmer relative w-full xl:w-2/4 xl:absolute" alt="Farmer Image" />
+
+  <div class="absolute inset-x-2.5 bottom-2.5 xl:hidden">
+    {{> components-account-info-mobile}}
+  </div>
 </div>
