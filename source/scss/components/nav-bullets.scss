@@ -1,0 +1,28 @@
+.nav-bullets {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #41544a;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all 0.25s ease-in;
+
+    &:hover {
+      background-color: #fff;
+      border-color: #41544a;
+      width: 15px;
+      height: 15px;
+    }
+
+    &--active {
+      background-color: #fff;
+      border-color: #41544a;
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
