@@ -1,5 +1,5 @@
 {
-  "footer-menu-1": [
+  "menu-footer-1": [
     {
       "title": "information",
       "modifier": "footer-menu-1__detail--green",
@@ -11,7 +11,7 @@
       "detail-6": "affilate"
     }
   ],
-  "footer-menu-2": [
+  "menu-footer-2": [
     {
       "title": "account",
       "detail-1": "my account",
@@ -22,7 +22,7 @@
       "detail-6": "help"
     }
   ],
-  "footer-menu-3": [
+  "menu-footer-3": [
     {
       "title": "our stores",
       "detail-1": "new york",
