@@ -2,7 +2,7 @@
   "menu-footer-1": [
     {
       "title": "information",
-      "modifier": "footer-menu-1__detail--green",
+      "modifier": "menu-footer-1__detail--green",
       "detail-1": "delivery information",
       "detail-2": "privacy policy",
       "detail-3": "terms & conditions",
