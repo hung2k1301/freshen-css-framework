@@ -1,0 +1,177 @@
+{
+  "categories": [
+    { "thumbnail": "/images/food-grocery.svg", "name": "food & grocery" },
+    { "thumbnail": "/images/bread.svg", "name": "bakery" },
+    {
+      "thumbnail": "/images/vegetables.svg",
+      "name": "vegetables",
+      "isActive": true
+    },
+    { "thumbnail": "/images/pineapple.svg", "name": "fruits" },
+    { "thumbnail": "/images/salmon.svg", "name": "sea food" },
+    { "thumbnail": "/images/steak.svg", "name": "fresh meat" },
+    { "thumbnail": "/images/egg.svg", "name": "butter & eggs" },
+    { "thumbnail": "/images/milk.svg", "name": "milks & creams" }
+  ],
+  "banner-2": [
+    {
+      "src": "https://picsum.photos/id/141/800/400",
+      "text-1": "seasonal sale",
+      "text-2": "up to breads",
+      "text-separate": "50% off"
+    },
+    {
+      "src": "https://picsum.photos/id/162/800/400",
+      "text-1": "tasty healthy",
+      "text-2": "fresh",
+      "text-separate": "vegetables"
+    }
+  ],
+  "card-featured-product": [
+    {
+      "cardActive": "ft-product-card--active",
+      "behaviourActive": "ft-product-card__behaviour--active",
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1lb",
+      "price": "2.00",
+      "btnActive": "ft-product-card__btn--active"
+    },
+    {
+      "title": "vegetables",
+      "name": "organic rocket",
+      "volume": "1lb",
+      "price": "2.00"
+    },
+    {
+      "isTag": true,
+      "title": "food & grocery",
+      "name": "silver heinz ketchup",
+      "volume": "350ml",
+      "price": "7.63"
+    },
+    {
+      "title": "food & grocery",
+      "name": "augason farms freeze dried",
+      "volume": "Beef Chunks (Pack of 6)",
+      "price": "64.92"
+    },
+    {
+      "title": "fruits",
+      "name": "organic rocket",
+      "volume": "1 lb",
+      "price": "2.00"
+    },
+    {
+      "title": "fruits",
+      "name": "organic rocket",
+      "volume": "1 lb",
+      "price": "2.00"
+    },
+    {
+      "title": "fruits",
+      "name": "silver heinz ketchup",
+      "volume": "350 ml",
+      "price": "7.63"
+    },
+    {
+      "title": "see food",
+      "name": "augason farms freeze dried",
+      "volume": "Beef Chunks (Pack of 6)",
+      "price": "64.92"
+    }
+  ],
+  "card-deal-of-the-day": [
+    {
+      "active": "card-deal-day--active",
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1 lb",
+      "price": "1.80"
+    },
+    {
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1 lb",
+      "price": "1.80"
+    },
+    {
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1 lb",
+      "price": "1.80"
+    },
+    {
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1 lb",
+      "price": "1.80"
+    }
+  ],
+  "card-blog": [
+    { "card-blog-title": "how to make a fresh juice blended for your family?" },
+    { "card-blog-title": "creative water features and exterior design" },
+    { "card-blog-title": "what are organic? all you need to know" }
+  ],
+  "why-section": [
+    {
+      "image": "/images/scooter.svg",
+      "alt": "scooter",
+      "text-1": "we drive fast & ship faster",
+      "text-2": "Sed semper convallis ultricies. Aliqua erat vol esent friday ngilla augue."
+    },
+    {
+      "image": "/images/cash.svg",
+      "alt": "cash",
+      "text-1": "we save your more money",
+      "text-2": "Sed semper convallis ultricies. Aliqua erat vol esent friday ngilla augue."
+    },
+    {
+      "image": "/images/sale-tag-icon.svg",
+      "alt": "sale-tag-icon",
+      "text-1": "daily discount coupons",
+      "text-2": "Sed semper convallis ultricies. Aliqua erat vol esent friday ngilla augue."
+    }
+  ],
+  "card-instagram": [
+    {},
+    { "isActive": true, "iconActive": "card-ig__icon--active" },
+    {},
+    {},
+    {}
+  ],
+  "menu-footer-1": [
+    {
+      "title": "information",
+      "modifier": "footer-menu-1__detail--green",
+      "detail-1": "delivery information",
+      "detail-2": "privacy policy",
+      "detail-3": "terms & conditions",
+      "detail-4": "contact",
+      "detail-5": "returns",
+      "detail-6": "affilate"
+    }
+  ],
+  "menu-footer-2": [
+    {
+      "title": "account",
+      "detail-1": "my account",
+      "detail-2": "order history",
+      "detail-3": "wishlist",
+      "detail-4": "shipping",
+      "detail-5": "privacy policy",
+      "detail-6": "help"
+    }
+  ],
+  "menu-footer-3": [
+    {
+      "title": "our stores",
+      "detail-1": "new york",
+      "detail-2": "london sF",
+      "detail-3": "cockfosters bP",
+      "detail-4": "los angeles",
+      "detail-5": "chicago",
+      "detail-6": "las vegas"
+    }
+  ]
+}
