@@ -1,41 +1,35 @@
-const glideCategory = new Glide(".glide-category", {
-  breakpoints: {
-    3000: {
-      perView: 10,
+let sliders1 = document.querySelectorAll(".glide-1");
+for (let i = 0; i < sliders1.length; i++) {
+  let glide = new Glide(sliders1[i], {
+    breakpoints: {
+      3000: {
+        perView: 10,
+      },
+      1280: {
+        perView: 3,
+      },
+      800: {
+        perView: 2,
+      },
     },
-    1280: {
-      perView: 3,
-    },
-    800: {
-      perView: 2,
-    },
-  },
-}).mount();
+  });
+  glide.mount();
+}
 
-const glideFeaturedProduct = new Glide(".glide-featured-product", {
-  breakpoints: {
-    3000: {
-      perView: 3,
+let sliders2 = document.querySelectorAll(".glide-2");
+for (let i = 0; i < sliders2.length; i++) {
+  let glide = new Glide(sliders2[i], {
+    breakpoints: {
+      3000: {
+        perView: 3,
+      },
+      1023: {
+        perView: 2,
+      },
+      280: {
+        perView: 1,
+      },
     },
-    1023: {
-      perView: 2,
-    },
-    280: {
-      perView: 1,
-    },
-  },
-}).mount();
-
-const glideDealDay = new Glide(".glide-deal-of-the-day", {
-  breakpoints: {
-    3000: {
-      perView: 3,
-    },
-    1023: {
-      perView: 2,
-    },
-    280: {
-      perView: 1,
-    },
-  },
-}).mount();
+  });
+  glide.mount();
+}
