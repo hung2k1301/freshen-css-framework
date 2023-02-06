@@ -1,0 +1,49 @@
+{{#each card-person}}
+  <div class="col-span-2 xl:col-span-2">
+    <div class="card-person">
+      {{#if this.isActive}}
+        <div class="card-person__thumbnail">
+          <img
+            src="https://picsum.photos/id/437/800/800"
+            alt=""
+            class="card-person__img"
+          />
+          <div class="card-person__layer {{this.active-layer}}"></div>
+        </div>
+
+        <div class="card-person__title">
+          <p class="card-person__name">{{this.name}}</p>
+          <p class="card-person__position">{{this.position}} </p>
+        </div>
+
+        <div class="card-person__contact {{this.active-contact}}">
+          <a href=""><img src="/images/fb-icon-black.svg" alt="" /></a>
+          <a href=""><img src="/images/twitter-icon-green.svg" alt="" /></a>
+          <a href=""><img src="/images/ig-icon-black.svg" alt="" /></a>
+          <a href=""><img src="/images/pinterest-icon-white.svg" alt="" /></a>
+        </div>
+      {{else}}
+        <div class="card-person__thumbnail">
+          <img
+            src="https://picsum.photos/id/437/800/800"
+            alt=""
+            class="card-person__img"
+          />
+          <div class="card-person__layer"></div>
+        </div>
+
+        <div class="card-person__title">
+          <p class="card-person__name">{{this.name}}</p>
+          <p class="card-person__position">{{this.position}}</p>
+        </div>
+
+        <div class="card-person__contact">
+          <a href=""><img src="/images/fb-icon-black.svg" alt="" /></a>
+          <a href=""><img src="/images/twitter-icon-green.svg" alt="" /></a>
+          <a href=""><img src="/images/ig-icon-black.svg" alt="" /></a>
+          <a href=""><img src="/images/pinterest-icon-white.svg" alt="" /></a>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+{{/each}}

@@ -1,0 +1,16 @@
+{
+  "card-person": [
+    { "name": "wade warren", "position": "marketing coordinator" },
+    {
+      "isActive": true,
+      "active-layer": "card-person__layer--active",
+      "name": "floyd miles",
+      "position": "web designer",
+      "active-contact": "card-person__contact--active"
+    },
+    { "name": "brooklyn simmons", "position": "nursing assistant" },
+    { "name": "ralph edwards", "position": "marketing coordinator" },
+    { "name": "leslie alexander", "position": "dog trainer" },
+    { "name": "eleanor pena", "position": "presidentof sales" }
+  ]
+}
