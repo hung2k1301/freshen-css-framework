@@ -33,3 +33,15 @@ for (let i = 0; i < sliders2.length; i++) {
   });
   glide.mount();
 }
+
+let sliders3 = document.querySelectorAll(".glide-3");
+for (let i = 0; i < sliders3.length; i++) {
+  let glide = new Glide(sliders3[i], {
+    breakpoints: {
+      3000: {
+        perView: 1,
+      },
+    },
+  });
+  glide.mount();
+}
