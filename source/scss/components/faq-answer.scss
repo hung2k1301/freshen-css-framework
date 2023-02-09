@@ -1,0 +1,52 @@
+.faq-answer {
+  color: #121212;
+
+  &__heading {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+
+  &__container {
+    margin-bottom: 19px;
+
+    &:hover {
+      .faq-answer__sign-1 {
+        display: inline;
+      }
+
+      .faq-answer__sign-2 {
+        display: none;
+      }
+
+      .faq-answer__text {
+        display: block;
+      }
+    }
+  }
+
+  &__question {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #121212;
+    padding-bottom: 15px;
+  }
+
+  &__sign-1 {
+    display: none;
+  }
+
+  &__text {
+    color: #4f4f4f;
+    padding-right: 25px;
+    margin-top: 30px;
+    display: none;
+
+    &--active {
+      display: block;
+    }
+  }
+}
