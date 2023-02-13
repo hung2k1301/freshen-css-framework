@@ -1,0 +1,37 @@
+.store-location {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+
+  &__heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #121212;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+  }
+  
+  &__info {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4f4f4f;
+    line-height: 24px;
+    margin-bottom: 21px;
+  }
+
+  &__btn {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #86bc42;
+  }
+
+  &__underline {
+    display: block;
+    width: 68px;
+    height: 2px;
+    background-color: #86bc42;
+    position: relative;
+    top: 8px;
+  }
+}
