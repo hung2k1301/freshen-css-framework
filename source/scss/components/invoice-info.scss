@@ -1,0 +1,46 @@
+.invoice-info {
+  &__number {
+    font-size: 18px;
+    font-weight: 600;
+    color: #121212;
+
+    &--detail {
+      font-size: 16px;
+      font-weight: 400;
+      color: #4f4f4f;
+    }
+  }
+
+  &__date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4f4f4f;
+  }
+
+  &__time {
+    font-size: 14px;
+    font-weight: 700;
+    color: #121212;
+  }
+
+  &__party {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4f4f4f;
+    margin-bottom: 25px;
+
+    &-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #121212;
+      text-transform: capitalize;
+      line-height: 24px;
+    }
+
+    &-address {
+      font-size: 14px;
+      font-weight: 400;
+      color: #4f4f4f;
+    }
+  }
+}
