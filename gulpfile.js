@@ -16,7 +16,9 @@ function compileSASS() {
 }
 
 exports.compile = gulp.series(compileSASS);
-exports.compileWatch = gulp.watch(
-  [`./source/scss/**/*.scss`, `./source/_patterns/**/*.hbs`],
-  gulp.parallel(compileSASS)
-);
+
+// Uncomment the code below if you want to compile each SASS file's change.
+// exports.compileWatch = gulp.watch(
+//   [`./source/scss/**/*.scss`, `./source/_patterns/**/*.hbs`],
+//   gulp.parallel(compileSASS)
+// );
