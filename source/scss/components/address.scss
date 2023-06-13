@@ -1,0 +1,32 @@
+.address {
+  background-color: #41544a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+
+  &__detail {
+    line-height: 30px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+  }
+
+  &__btn {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  &__btn-effect {
+    display: block;
+    width: 48px;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    top: 7px;
+  }
+
+  &__social {
+    background-color: #41544a;
+    display: flex;
+    column-gap: 26px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,20 @@
+.hero-4 {
+  background-color: #f2e2c4;
+  padding: 48px 0 28px 0;
+
+  &__btn {
+    color: #4f4f4f;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: text-decoration 0.25s ease-in;
+
+    &--bold {
+      font-weight: bolder;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

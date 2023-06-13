@@ -1,0 +1,91 @@
+{{> components-header}}
+
+{{!-- heading --}}
+<div class="mt-3 mb-24">
+  <div class="hero-3">
+    <div class="container pt-32 pb-20">
+      <div class="hero-3__intro">
+        <p
+          class="hero-3__text-2 text-[25px] md:text-[40px] lg:text-[50px]"
+        >about us</p>
+        <a href="" class="hero-3__btn">home</a><span> / </span><a
+          href=""
+          class="hero-3__btn hero-3__btn--bold"
+        >about us</a>
+      </div>
+    </div>
+
+    <img src="/images/farmer.svg" class="hero__farmer" alt="Farmer Image" />
+  </div>
+</div>
+{{!-- heading --}}
+
+
+{{!-- components-welcome --}}
+<div class="container mb-12 xl:mb-60">
+  {{> components-welcome}}
+</div>
+{{!-- components-welcome --}}
+
+
+<div class="border-t border-grey border-solid mb-24"></div>
+
+
+{{!-- components-why-choose --}}
+<h2 class="heading-section mb-12 text-[24px] lg:text-[30px]">why choose freshen</h2>
+<div class="container mb-24">
+  {{> components-why-choose}}
+</div>
+{{!-- components-why-choose --}}
+
+
+{{!-- testimonials --}}
+<div class="bg-[#86bc42] mb-24">
+  <div class="container">
+    <div class="glide-3 relative">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides">
+          <div class="glide__slide">
+            {{> components-testimonials}}
+          </div>
+        </div>
+      </div>
+
+      <div class="" data-glide-el="controls">
+        <button
+          class="nav-arrow absolute top-1/2 left-0 xl:-left-[45px]"
+          data-glide-dir="<"
+        >
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button
+          class="nav-arrow nav-arrow__right nav-arrow__active absolute top-1/2 right-0 xl:-right-[45px]"
+          data-glide-dir=">"
+        >
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- testimonials --}}
+
+
+{{!-- components-card-person --}}
+<h2 class="heading-section mb-12 text-[24px] lg:text-[30px]">deal of the week</h2>
+<div class="container mb-24">
+  <div class="grid grid-cols-4 gap-10 md:grid-cols-6 xl:grid-cols-12 lg:gap-x-28 lg:gap-y-10 xl:gap-x-8">
+    {{> components-card-person}}
+  </div>
+</div>
+{{!-- components-card-person --}}
+
+
+<div class="border-t border-grey border-solid mb-24"></div>
+
+
+<div class="container hidden md:block mb-32">
+  {{> components-banner-3}}
+</div>
+
+{{> components-footer}}

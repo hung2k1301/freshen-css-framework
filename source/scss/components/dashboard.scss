@@ -1,0 +1,65 @@
+.dashboard {
+  &__menu {
+    color: #121212;
+    font-size: 14px;
+    text-transform: capitalize;
+
+    &-title {
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    &-detail {
+      transition: all 0.25s ease-in;
+
+      &-effect {
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: #86bc42;
+        position: relative;
+        top: 2px;
+        opacity: 0;
+        transition: all 0.25s ease-in;
+
+        &--visible {
+          opacity: 1;
+        }
+      }
+
+      &--green {
+        color: #86bc42;
+      }
+
+      &:hover {
+        color: #86bc42;
+
+        .dashboard__menu-detail-effect {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &__content {
+    color: #4f4f4f;
+    font-size: 14px;
+    padding-top: 60px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+
+    &-bold {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "card-deal-of-the-day": [
+    {
+      "active":"card-deal-day--active",
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1 lb",
+      "price": "1.80"
+    },
+    {
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1 lb",
+      "price": "1.80"
+    },
+    {
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1 lb",
+      "price": "1.80"
+    },
+    {
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1 lb",
+      "price": "1.80"
+    }
+  ]
+}

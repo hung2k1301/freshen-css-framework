@@ -1,0 +1,29 @@
+{{> components-header}}
+
+{{! hero-3 }}
+<div class="mt-3 mb-24">
+  <div class="hero-3">
+    <div class="container pt-32 pb-20">
+      <div class="hero-3__intro">
+        <p class="hero-3__text-2 text-[25px] md:text-[40px] lg:text-[50px]">
+          order tracking
+        </p>
+        <a href="" class="hero-3__btn">home</a>
+        <span> / </span>
+        <a href="" class="hero-3__btn hero-3__btn--bold">my account</a>
+      </div>
+    </div>
+    <img src="/images/farmer.svg" class="hero__farmer" alt="Farmer Image" />
+  </div>
+</div>
+{{! hero-3 }}
+
+<div class="container mt-24 mb-44">
+  <div class="grid grid-cols-12">
+    <div class="col-start-4 col-span-6">
+        {{> components-form-order-tracking}}
+    </div>
+  </div>
+</div>
+
+{{> components-footer}}

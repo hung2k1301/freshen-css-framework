@@ -1,0 +1,56 @@
+{
+  "card-featured-product": [
+    {
+      "cardActive": "ft-product-card--active",
+      "behaviourActive": "ft-product-card__behaviour--active",
+      "title": "fruits",
+      "name": "pineapple (tropical gold)",
+      "volume": "1lb",
+      "price": "2.00",
+      "btnActive": "ft-product-card__btn--active"
+    },
+    {
+      "title": "vegetables",
+      "name": "organic rocket",
+      "volume": "1lb",
+      "price": "2.00"
+    },
+    {
+      "isTag": true,
+      "title": "food & grocery",
+      "name": "silver heinz ketchup",
+      "volume": "350ml",
+      "price": "7.63"
+    },
+    {
+      "title": "food & grocery",
+      "name": "augason farms freeze dried",
+      "volume": "Beef Chunks (Pack of 6)",
+      "price": "64.92"
+    },
+    {
+      "title": "fruits",
+      "name": "organic rocket",
+      "volume": "1 lb",
+      "price": "2.00"
+    },
+    {
+      "title": "fruits",
+      "name": "organic rocket",
+      "volume": "1 lb",
+      "price": "2.00"
+    },
+    {
+      "title": "fruits",
+      "name": "silver heinz ketchup",
+      "volume": "350 ml",
+      "price": "7.63"
+    },
+    {
+      "title": "see food",
+      "name": "augason farms freeze dried",
+      "volume": "Beef Chunks (Pack of 6)",
+      "price": "64.92"
+    }
+  ]
+}

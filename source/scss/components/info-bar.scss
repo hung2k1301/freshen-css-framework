@@ -1,0 +1,47 @@
+.info-bar {
+  display: flex;
+  justify-items: center;
+
+  &__component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &-icon {
+      margin-bottom: 23px;
+    }
+
+    &--pd {
+      border-right: 1px solid #ebebeb;
+      border-left: 1px solid #ebebeb;
+      padding: 0 112px;
+    }
+
+    &--br {
+      border-left: none;
+    }
+
+    &--mr {
+      margin-right: auto;
+    }
+
+    &--ml {
+      margin-left: auto;
+    }
+  }
+
+  &__heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #121212;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4f4f4f;
+  }
+}

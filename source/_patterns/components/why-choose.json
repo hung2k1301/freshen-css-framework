@@ -1,0 +1,36 @@
+{
+  "why-choose-content-1": [
+    {
+      "background-color": "#bfd6ca",
+      "src": "/images/love.svg",
+      "heading": "eat more healthfully"
+    },
+    {
+      "background-color": "#ffd96a",
+      "src": "/images/lemon.svg",
+      "heading": "we have reputation"
+    },
+    {
+      "background-color": "#cf3e3b",
+      "src": "/images/carrot.svg",
+      "heading": "fresh & pesticide free"
+    }
+  ],
+  "why-choose-content-2": [
+    {
+      "background-color": "#849d6a",
+      "src": "/images/broccoli.svg",
+      "heading": "no commitment required"
+    },
+    {
+      "background-color": "#4f4f4f",
+      "src": "/images/salad.svg",
+      "heading": "flexibility"
+    },
+    {
+      "background-color": "#f2b23e",
+      "src": "/images/apple.svg",
+      "heading": "customization"
+    }
+  ]
+}

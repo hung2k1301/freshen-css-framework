@@ -1,0 +1,12 @@
+.bottom-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #41544a;
+
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+  }
+}

@@ -1,13 +1,12 @@
 .hero {
-  background-image: url(/public/images/background.svg);
-  height: 600px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  aspect-ratio: 192/60;
+  position: relative;
+  background-color: #f2e2c4;
 
   &__intro {
     color: #41544a;
-    width: 50%;
+    position: relative;
+    z-index: 1;
   }
 
   &__text-1 {
@@ -45,6 +44,11 @@
   }
 
   &__farmer {
+    width: 50%;
     height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }

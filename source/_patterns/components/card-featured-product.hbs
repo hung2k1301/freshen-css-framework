@@ -1,0 +1,57 @@
+{{#each card-featured-product}}
+  <div class="col-span-3 lg:col-span-4 xl:col-span-3">
+    <a class="ft-product-card {{this.cardActive}} pt-5 xl:pt-[11px] px-0 xl:px-[30px]" href="">
+
+      <div class="ft-product-card__thumbnail">
+        <img
+          src="https://picsum.photos/id/75/200/300"
+          alt="Featured Product"
+          class="ft-product-card__img"
+        />
+        {{#if this.isTag}}
+          <div class="ft-product-card__tag">
+            <div
+              class="ft-product-card__common ft-product-card__state"
+            >hot</div>
+            <div class="ft-product-card__common ft-product-card__deal">-4 %</div>
+          </div>
+        {{/if}}
+        <div class="ft-product-card__behaviour {{this.behaviourActive}} hidden xl:flex border-none xl:border-solid">
+          <div class="ft-product-card__save">
+            <img src="/images/green-heart.svg" alt="Save icon" />
+          </div>
+          <img src="/images/black-search.svg" alt="Search" />
+          <img src="/images/compare-icon.svg" alt="Compare" />
+        </div>
+        <img src="/images/heart.svg" alt="Save icon" class="absolute top-[-18px] right-[-20px] xl:hidden" />
+      </div>
+
+
+      <p class="ft-product-card__title">{{this.title}}</p>
+
+      <span>
+        <i class="fa-solid fa-star ft-product-card__star"></i>
+        <i class="fa-solid fa-star ft-product-card__star"></i>
+        <i class="fa-solid fa-star ft-product-card__star"></i>
+        <i class="fa-solid fa-star ft-product-card__star"></i>
+        <i
+          class="fa-solid fa-star ft-product-card__star ft-product-card__star--grey"
+        ></i>
+      </span>
+
+      <p class="ft-product-card__name">{{this.name}}</p>
+      <p class="ft-product-card__volume">{{this.volume}}</p>
+
+      <div class="ft-product-card__price-container">
+
+        <p class="ft-product-card__price">${{this.price}}</p>
+
+        <button class="ft-product-card__btn {{this.btnActive}}">
+          <img src="/images/white-cart.svg" alt="cart" />
+          ADD TO CART
+        </button>
+      </div>
+
+    </a>
+  </div>
+{{/each}}

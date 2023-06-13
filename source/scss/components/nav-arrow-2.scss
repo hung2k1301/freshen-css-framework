@@ -1,0 +1,23 @@
+.nav-arrow-2 {
+  color: #121212;
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .25s ease-in;
+
+  &:hover {
+    color: #86bc42;
+  }
+
+  &__active {
+    color: #86bc42;
+  }
+
+  &__right {
+    transform: rotate(180deg);
+  }
+}

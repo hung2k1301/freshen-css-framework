@@ -1,0 +1,162 @@
+.ft-product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  color: #121212;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 11px 30px 30px 30px;
+  transition: border-color 0.25s ease-out;
+
+  &--active {
+    border: 1px solid #ebebeb;
+    padding: 11px 30px 30px 30px;
+  }
+
+  &:hover {
+    border-color: #ebebeb;
+
+    .ft-product-card__behaviour {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .ft-product-card__price {
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+    .ft-product-card__btn {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  &__thumbnail {
+    position: relative;
+    aspect-ratio: 1/1;
+    width: calc(100% - 40px);
+  }
+  
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+  }
+
+  &__title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #4f4f4f;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  &__star {
+    font-size: 10px;
+    color: #f2b23e;
+  }
+  
+  &__star--grey {
+    color: #ebebeb;
+  }
+  
+  &__name {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  &__price-container {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+  }
+  &__price {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    color: #86bc42;
+    width: 100%;
+    text-align: center;
+    transition: opacity .25s ease-in;
+  }
+  
+  &__btn {
+    display: flex;
+    position: absolute;
+    transition: opacity .25s ease-in;
+    opacity: 0;
+    visibility: hidden;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #86bc42;
+    border-radius: 4px;
+  }
+  
+  &__behaviour {
+    display: flex;
+    transition: opacity .25s ease-out;
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 22px;
+    position: absolute;
+    top: 9px;
+    right: -30px;
+  }
+  &__save {
+    width: 39px;
+    height: 39px;
+    border: 1px solid #86bc42;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__btn--active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__behaviour--active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__tag {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 9px;
+    left: -33px;
+  }
+  &__common {
+    padding: 5px 17px;
+    border: 1px solid transparent;
+    border-radius: 60px;
+  }
+  &__state {
+    background-color: #f2b23e;
+  }
+  &__deal {
+    background-color: #cf3e3b;
+  }
+}

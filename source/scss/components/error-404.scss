@@ -1,0 +1,45 @@
+.error-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  // padding-top: 94px;
+  padding-bottom: 122px;
+
+  &__heading {
+    font-size: 300px;
+    font-weight: 700;
+    color: #4f4f4f;
+
+    &--hidden {
+      visibility: hidden;
+    }
+  }
+
+  &__text {
+    color: #4f4f4f;
+    text-transform: uppercase;
+    margin-bottom: 61px;
+
+    &--bold {
+      font-size: 60px;
+      font-weight: 600;
+    }
+
+    &--lighter {
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: none;
+    }
+  }
+
+  &__btn {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #86bc42;
+    border-radius: 4px;
+    padding: 17px 55px;
+  }
+}

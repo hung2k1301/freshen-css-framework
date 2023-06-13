@@ -1,0 +1,36 @@
+{{> components-header}}
+
+{{! hero-3 }}
+<div class="mt-3 mb-12">
+  <div class="hero-3">
+    <div class="container pt-32 pb-20">
+      <div class="hero-3__intro">
+        <p
+          class="hero-3__text-2 text-[25px] md:text-[40px] lg:text-[50px]"
+        >contact us</p>
+        <a href="" class="hero-3__btn">home</a><span> / </span><a
+          href=""
+          class="hero-3__btn hero-3__btn--bold"
+        >contact us</a>
+      </div>
+    </div>
+    <img src="/images/farmer.svg" class="hero__farmer" alt="Farmer Image" />
+  </div>
+</div>
+{{! hero-3 }}
+
+<div class="container mb-28 hidden xl:block">
+  {{> components-info-bar}}
+</div>
+
+<div class="grid grid-cols-10">
+  <div class="col-span-6">
+    {{> components-map}}
+  </div>
+
+  <div class="col-span-4 hidden xl:block">
+    {{> components-form}}
+  </div>
+</div>
+
+{{> components-footer}}

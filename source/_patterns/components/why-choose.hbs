@@ -1,0 +1,47 @@
+<div class="why-choose">
+  <div class="flex flex-col md:flex-row lg:justify-between lg:gap-x-5">
+    <div>
+      {{#each why-choose-content-1}}
+        <div class="why-choose__content">
+          <div
+            class="why-choose__icon"
+            style="background-color: {{this.background-color}};"
+          >
+            <img src="{{this.src}}" alt="" />
+          </div>
+          <div class="">
+            <h1 class="why-choose__heading">{{this.heading}}.</h1>
+            <p class="why-choose__subheading">Sed semper convallis ultricies.
+              Aliqua erat vol esent friday.</p>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="hidden xl:block">
+      <img
+        src="https://picsum.photos/id/323/1200/900"
+        alt=""
+        class="why-choose__img"
+      />
+    </div>
+
+    <div>
+      {{#each why-choose-content-2}}
+        <div class="why-choose__content">
+          <div
+            class="why-choose__icon"
+            style="background-color: {{this.background-color}};"
+          >
+            <img src="{{this.src}}" alt="" />
+          </div>
+          <div class="">
+            <h1 class="why-choose__heading">{{this.heading}}</h1>
+            <p class="why-choose__subheading">Sed semper convallis ultricies.
+              Aliqua erat vol esent friday.</p>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</div>

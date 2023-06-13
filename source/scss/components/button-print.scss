@@ -1,0 +1,17 @@
+.button-print {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #86bc42;
+  border-radius: 4px;
+  padding: 22px 64px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &__img {
+    display: inline-block;
+    margin-right: 16px;
+  }
+}

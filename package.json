@@ -14,7 +14,7 @@
     "pl:serve": "patternlab serve --config ./patternlab-config.json",
     "pl:version": "patternlab --version",
     "start": "npm run pl:serve",
-    "compile:scss": "parcel watch ./source/scss/style.scss --dist-dir ./public/css"
+    "compile": "gulp compile"
   },
   "repository": {
     "type": "git",
@@ -35,7 +35,13 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
-    "parcel": "^2.8.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.4.19",
+    "sass": "^1.56.1",
     "tailwindcss": "^3.2.4"
   }
 }

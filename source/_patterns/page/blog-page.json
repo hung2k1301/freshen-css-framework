@@ -1,0 +1,55 @@
+{
+  "card-blog": [
+    { "card-blog-title": "how to make a fresh juice blended for your family?" },
+    { "card-blog-title": "reat bulk recipes to help use all your organic vegetables" },
+    { "card-blog-title": "change your eating habits with this organic food diet plan" },
+    { "card-blog-title": "restaurant employer read clients orders on his ipad" },
+    { "card-blog-title": "10 reasons why eating sea fish is good for health" },
+    { "card-blog-title": "the secret to gaving a delicious spaghetti dish" },
+    { "card-blog-title": "make a delicious butter smoothie at home" },
+    { "card-blog-title": "healthy vegetables should only be eaten raw" },
+    { "card-blog-title": "foods for breakfast is unhealthy for the body" }
+  ],
+  "pagination": [
+    {"number":1},
+    {"number":2},
+    {"modifier":"pagination__number--green","number":3},
+    {"number":4},
+    {"number":"..."},
+    {"number":19}
+  ],
+  "menu-footer-1": [
+    {
+      "title": "information",
+      "modifier": "menu-footer-1__detail--green",
+      "detail-1": "delivery information",
+      "detail-2": "privacy policy",
+      "detail-3": "terms & conditions",
+      "detail-4": "contact",
+      "detail-5": "returns",
+      "detail-6": "affilate"
+    }
+  ],
+  "menu-footer-2": [
+    {
+      "title": "account",
+      "detail-1": "my account",
+      "detail-2": "order history",
+      "detail-3": "wishlist",
+      "detail-4": "shipping",
+      "detail-5": "privacy policy",
+      "detail-6": "help"
+    }
+  ],
+  "menu-footer-3": [
+    {
+      "title": "our stores",
+      "detail-1": "new york",
+      "detail-2": "london sF",
+      "detail-3": "cockfosters bP",
+      "detail-4": "los angeles",
+      "detail-5": "chicago",
+      "detail-6": "las vegas"
+    }
+  ]
+}

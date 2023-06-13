@@ -1,0 +1,45 @@
+.contact {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #41544a;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 55px;
+  }
+
+  &__method {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &--2 {
+      margin: 26px 0;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: 0;
+
+    &--phone {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &__detail {
+    transform: translateX(58px);
+
+    &--phone {
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    &--wrk-hour {
+      line-height: 30px;
+    }
+  }
+}

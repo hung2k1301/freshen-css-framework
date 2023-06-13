@@ -1,0 +1,21 @@
+.bottom-bar-2 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 38px 0;
+
+  &__link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4f4f4f;
+    transition: color 0.25s ease-out;
+
+    &--active {
+      color: #86bc42;
+    }
+
+    &:hover {
+      color: #86bc42;
+    }
+  }
+}
